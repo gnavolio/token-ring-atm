@@ -4,6 +4,8 @@
 *.bat text eol=crlf
 *.cmd text eol=crlf
 *.ps1 text eol=crlf
+# File di scenario: sempre LF, come previsto dalla specifica (verificato dai test).
+scenari/** text eol=lf
 # File binari
 *.mp4 binary
 *.pdf binary
