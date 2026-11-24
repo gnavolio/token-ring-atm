@@ -1,0 +1,2 @@
+# Scenario con prelievo rifiutato - nodo ATM1
+# ATM1 possiede inizialmente il token e non esegue transazioni.

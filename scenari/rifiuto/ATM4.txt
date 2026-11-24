@@ -1,0 +1,3 @@
+# Scenario con prelievo rifiutato - nodo ATM4
+# Prelievo pari all'intero saldo (1100): deve essere ACCETTATO (saldo 0).
+PRELIEVO 1100

@@ -1,0 +1,48 @@
+20:40:13.286 [ATM1]     NODO_AVVIATO          successore=ATM2 porta_successore=5002 ritardo=1.5
+20:40:13.298 [ATM1]     SCENARIO_CARICATO     transazioni=0
+20:40:13.298 [ATM1]     IN_ASCOLTO            porta=5001
+20:40:13.313 [ATM1]     CONNESSIONE_OK        successore=ATM2 porta_successore=5002 tentativi=1
+20:40:13.313 [ATM1]     PREDECESSORE_CONNESSO remoto=127.0.0.1:54388
+20:40:13.313 [ATM1]     TOKEN_CREATO          seq=0 saldo=1000
+20:40:13.313 [ATM1]     NESSUNA_TRANSAZIONE   seq=0 saldo=1000
+20:40:14.814 [ATM1]     TOKEN_INOLTRATO       seq=1 saldo=1000 a=ATM2
+20:40:19.318 [ATM1]     TOKEN_RICEVUTO        seq=4 saldo=400 da=ATM4
+20:40:19.318 [ATM1]     NESSUNA_TRANSAZIONE   seq=4 saldo=400
+20:40:20.819 [ATM1]     TOKEN_INOLTRATO       seq=5 saldo=400 a=ATM2
+20:40:25.322 [ATM1]     TOKEN_RICEVUTO        seq=8 saldo=400 da=ATM4
+20:40:25.322 [ATM1]     NESSUNA_TRANSAZIONE   seq=8 saldo=400
+20:40:26.823 [ATM1]     TOKEN_INOLTRATO       seq=9 saldo=400 a=ATM2
+20:40:31.325 [ATM1]     TOKEN_RICEVUTO        seq=12 saldo=400 da=ATM4
+20:40:31.325 [ATM1]     NESSUNA_TRANSAZIONE   seq=12 saldo=400
+20:40:32.827 [ATM1]     TOKEN_INOLTRATO       seq=13 saldo=400 a=ATM2
+20:40:37.329 [ATM1]     TOKEN_RICEVUTO        seq=16 saldo=400 da=ATM4
+20:40:37.329 [ATM1]     NESSUNA_TRANSAZIONE   seq=16 saldo=400
+20:40:38.830 [ATM1]     TOKEN_INOLTRATO       seq=17 saldo=400 a=ATM2
+20:40:43.332 [ATM1]     TOKEN_RICEVUTO        seq=20 saldo=400 da=ATM4
+20:40:43.332 [ATM1]     NESSUNA_TRANSAZIONE   seq=20 saldo=400
+20:40:44.833 [ATM1]     TOKEN_INOLTRATO       seq=21 saldo=400 a=ATM2
+20:40:49.336 [ATM1]     TOKEN_RICEVUTO        seq=24 saldo=400 da=ATM4
+20:40:49.336 [ATM1]     NESSUNA_TRANSAZIONE   seq=24 saldo=400
+20:40:50.836 [ATM1]     TOKEN_INOLTRATO       seq=25 saldo=400 a=ATM2
+20:40:55.339 [ATM1]     TOKEN_RICEVUTO        seq=28 saldo=400 da=ATM4
+20:40:55.339 [ATM1]     NESSUNA_TRANSAZIONE   seq=28 saldo=400
+20:40:56.840 [ATM1]     TOKEN_INOLTRATO       seq=29 saldo=400 a=ATM2
+20:41:01.345 [ATM1]     TOKEN_RICEVUTO        seq=32 saldo=400 da=ATM4
+20:41:01.345 [ATM1]     NESSUNA_TRANSAZIONE   seq=32 saldo=400
+20:41:02.846 [ATM1]     TOKEN_INOLTRATO       seq=33 saldo=400 a=ATM2
+20:41:04.061 [ATM1]     COMANDO_ACCETTATO     op=DEPOSITO importo=250 in_coda=1
+20:41:07.350 [ATM1]     TOKEN_RICEVUTO        seq=36 saldo=400 da=ATM4
+20:41:07.350 [ATM1] >>> INIZIO_TRANSAZIONE    seq=36 saldo=400 op=DEPOSITO importo=250
+20:41:07.350 [ATM1] === SALDO_AGGIORNATO      seq=36 saldo=650 prima=400 variazione=+250
+20:41:07.350 [ATM1] <<< FINE_TRANSAZIONE      seq=36 saldo=650 esito=ACCETTATA
+20:41:08.851 [ATM1]     TOKEN_INOLTRATO       seq=37 saldo=650 a=ATM2
+20:41:13.355 [ATM1]     TOKEN_RICEVUTO        seq=40 saldo=650 da=ATM4
+20:41:13.355 [ATM1]     NESSUNA_TRANSAZIONE   seq=40 saldo=650
+20:41:14.857 [ATM1]     TOKEN_INOLTRATO       seq=41 saldo=650 a=ATM2
+20:41:19.360 [ATM1]     TOKEN_RICEVUTO        seq=44 saldo=650 da=ATM4
+20:41:19.360 [ATM1]     NESSUNA_TRANSAZIONE   seq=44 saldo=650
+20:41:20.862 [ATM1]     TOKEN_INOLTRATO       seq=45 saldo=650 a=ATM2
+20:41:25.365 [ATM1]     TOKEN_RICEVUTO        seq=48 saldo=650 da=ATM4
+20:41:25.365 [ATM1]     NESSUNA_TRANSAZIONE   seq=48 saldo=650
+20:41:26.702 [ATM1] !!! TOKEN_PERSO           seq=48 saldo=650
+20:41:26.702 [ATM1]     ARRESTO               motivo=interruzione codice=0

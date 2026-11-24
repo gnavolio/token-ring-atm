@@ -1,0 +1,5 @@
+# Log generati a ogni esecuzione dai nodi (vedi README)
+logs/
+# Bytecode Python
+__pycache__/
+*.pyc

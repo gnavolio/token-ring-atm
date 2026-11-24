@@ -1,0 +1,9 @@
+# Normalizza i fine riga nel repository (LF) e li converte al checkout.
+* text=auto
+# Script Windows: sempre CRLF, altrimenti cmd/PowerShell possono interpretarli male.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+# File binari
+*.mp4 binary
+*.pdf binary

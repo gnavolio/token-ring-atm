@@ -1,0 +1,2 @@
+# Scenario con prelievo rifiutato - nodo ATM3
+DEPOSITO 100
